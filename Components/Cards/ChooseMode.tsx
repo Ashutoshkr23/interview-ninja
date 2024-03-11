@@ -7,7 +7,7 @@ interface ChooseModeProps {
   link: string;
 }
 
-const ChooseMode: React.FC<ChooseModeProps> = ({ heading, text, link }) => {
+const InterviewOptions: React.FC<ChooseModeProps> = ({ heading, text, link }) => {
   return (
     <div className='bg-[#FFF] text-black h-[300px] w-[200px] rounded-md flex flex-col  items-center p-8'>
       <h2 className='text-2xl'>{heading}</h2>
@@ -17,6 +17,6 @@ const ChooseMode: React.FC<ChooseModeProps> = ({ heading, text, link }) => {
   );
 };
 
-export default ChooseMode;
+export default InterviewOptions;
 
 
